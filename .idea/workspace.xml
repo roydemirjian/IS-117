@@ -4,11 +4,10 @@
     <list default="true" id="778a22b3-b9d2-456c-a8ae-b390957425c0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/about_us.html" beforeDir="false" afterPath="$PROJECT_DIR$/about_us.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/white_tee.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/contact_us.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact_us.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/men.html" beforeDir="false" afterPath="$PROJECT_DIR$/men.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/product.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/women.html" beforeDir="false" afterPath="$PROJECT_DIR$/women.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -85,7 +84,8 @@
       <updated>1575748369620</updated>
       <workItem from="1575748371047" duration="6642000" />
       <workItem from="1575779533564" duration="373000" />
-      <workItem from="1575780511669" duration="8411000" />
+      <workItem from="1575780511669" duration="8524000" />
+      <workItem from="1575853459643" duration="3291000" />
     </task>
     <servers />
   </component>
@@ -106,9 +106,9 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="661" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1575780540895">
+    <state x="661" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1575853631896">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="661" y="343" key="com.intellij.ide.util.TipDialog/-1080.-407.1080.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1575780540895" />
+    <state x="661" y="343" key="com.intellij.ide.util.TipDialog/-1080.-407.1080.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1575853631896" />
   </component>
 </project>
