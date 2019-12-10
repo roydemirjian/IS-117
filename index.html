@@ -16,21 +16,33 @@ DEVELOPER: Roy Demirjian, IS117-005, Fall 2019
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
+    <!-- core CSS -->
     <link href="styles/main.css" rel="stylesheet">
 </head>
 <body>
 
 <!-- Search bar -->
-<div class="site-header" id="topContent">
-    <input class="form-control" type="text" placeholder="Search" aria-label="Search">
-</div>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="index.html">
+        <img src="assets/logo_scaled_white.png" width="26" height="30" class="d-inline-block align-top" alt="Logo">
+    </a>
+    <form class="d-inline w-100">
+        <div class="input-group">
+            <input type="text" class="form-control border border-right-1" placeholder="Search">
+            <span class="input-group-append">
+                    <button class="btn btn-outline-secondary border border-left-1" type="button">
+                        <i class="fa fa-search"></i>
+                    </button>
+            </span>
+        </div>
+    </form>
+</nav>
 
 <!-- Nav Bar -->
 <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-dark ">
     <a class="navbar-brand" href="index.html">Clothing Website</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon">
-        </span>
+        <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarText">
         <ul class="navbar-nav mr-auto">
@@ -81,14 +93,14 @@ DEVELOPER: Roy Demirjian, IS117-005, Fall 2019
         <div class="my-3 py-3">
             <h2 class="display-5">MEN</h2>
             <p class="lead">Item Description.</p>
-            <img src="assets/men.png" alt="Mens Section">
+            <img src="assets/men_svg.png" alt="Mens silhouette" class ="silhouette">
         </div>
     </div>
     <div style="cursor:pointer" onclick="document.location='women.html'" class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
         <div class="my-3 p-3">
             <h2 class="display-5">WOMEN</h2>
             <p class="lead">Item Description.</p>
-            <img src="assets/women.png" alt="Womens Section">
+            <img src="assets/women_svg.png" alt="Womens silhouette" class ="silhouette">
         </div>
     </div>
 </div>

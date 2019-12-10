@@ -1,7 +1,6 @@
 <!--
 DEVELOPER: Roy Demirjian, IS117-005, Fall 2019
 -->
-
 <!doctype html>
 <html lang="en">
 <head>
@@ -17,21 +16,33 @@ DEVELOPER: Roy Demirjian, IS117-005, Fall 2019
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
+    <!-- core CSS -->
     <link href="styles/main.css" rel="stylesheet">
 </head>
 <body>
 
 <!-- Search bar -->
-<div class="site-header" id="topContent">
-    <input class="form-control" type="text" placeholder="Search" aria-label="Search">
-</div>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="index.html">
+        <img src="assets/logo_scaled_white.png" width="26" height="30" class="d-inline-block align-top" alt="Logo">
+    </a>
+    <form class="d-inline w-100">
+        <div class="input-group">
+            <input type="text" class="form-control border border-right-1" placeholder="Search">
+            <span class="input-group-append">
+                    <button class="btn btn-outline-secondary border border-left-1" type="button">
+                        <i class="fa fa-search"></i>
+                    </button>
+            </span>
+        </div>
+    </form>
+</nav>
 
 <!-- Nav Bar -->
 <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-dark ">
     <a class="navbar-brand" href="index.html">Clothing Website</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon">
-        </span>
+        <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarText">
         <ul class="navbar-nav mr-auto">
@@ -96,8 +107,8 @@ DEVELOPER: Roy Demirjian, IS117-005, Fall 2019
             <div class="row">
                 <div class="col-md-12">
                     <div class="form-group">
-                        <label for="form_message">Message</label>
-                        <textarea id="form_message" name="message" class="form-control" placeholder="Please enter your message here" rows="12"></textarea>
+                        <label for="form_message">Subject</label>
+                        <textarea id="form_message" name="subject" class="form-control" placeholder="Please enter your subject here" rows="8"></textarea>
                     </div>
                 </div>
                 <div class="col-md-12">

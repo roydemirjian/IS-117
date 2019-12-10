@@ -6,6 +6,21 @@ body {
     background-color: #e5dfdf; !important;
 }
 
+.category_title {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.btn-primary{
+    color: white;
+    background-color: #343a40;
+    border-color: #343a40;
+}
+
+.navbar-nav .nav-item:hover .nav-link {
+    color: pink;
+}
+
 /*
 List Styling
 */
@@ -26,6 +41,10 @@ img {
     height:100%;
 }
 
+.silhouette {
+    width: 25%;
+    height: 25%;
+}
 
 /*
 Nav Bar, Search Bar

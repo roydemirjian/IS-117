@@ -4,6 +4,8 @@
     <list default="true" id="778a22b3-b9d2-456c-a8ae-b390957425c0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/about_us.html" beforeDir="false" afterPath="$PROJECT_DIR$/about_us.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/men.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/women.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/contact_us.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact_us.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/men.html" beforeDir="false" afterPath="$PROJECT_DIR$/men.html" afterDir="false" />
@@ -60,15 +62,15 @@
       <recent name="C:\Users\royke\Documents\Coding Projects\IS 117" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
+  <component name="ServiceViewManager">
+    <option name="viewStates">
       <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
       </list>
     </option>
   </component>
@@ -106,9 +108,17 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1576016743357">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1080.-407.1080.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1576016743357" />
     <state x="661" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1575853631896">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="661" y="343" key="com.intellij.ide.util.TipDialog/-1080.-407.1080.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1575853631896" />
+    <state x="591" y="73" width="737" height="894" key="find.popup" timestamp="1576019774502">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="591" y="73" width="737" height="894" key="find.popup/-1080.-407.1080.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1576019774502" />
   </component>
 </project>
