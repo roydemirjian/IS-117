@@ -17,16 +17,32 @@ DEVELOPER: Roy Demirjian, IS117-005, Fall 2019
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
-
-    <!-- Custom styles for this template -->
     <link href="styles/main.css" rel="stylesheet">
 </head>
 <body>
 
-<!-- Search bar -->
+<!-- Search bar
 <div class="site-header" id="topContent">
     <input class="form-control" type="text" placeholder="Search" aria-label="Search">
 </div>
+-->
+<!-- Image and text -->
+<nav class="navbar navbar-light bg-dark">
+    <a class="navbar-brand" href="#">
+        <img src="/docs/4.4.1/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt="">
+    </a>
+    <form class="d-inline w-100">
+        <div class="input-group">
+            <input type="text" class="form-control border border-right-0" placeholder="Search">
+            <span class="input-group-append">
+                    <button class="btn btn-outline-secondary border border-left-0" type="button">
+                        <span class="glyphicon glyphicon-search"></span>
+                    </button>
+            </span>
+        </div>
+    </form>
+</nav>
+
 
 <!-- Nav Bar -->
 <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-dark ">
@@ -37,11 +53,25 @@ DEVELOPER: Roy Demirjian, IS117-005, Fall 2019
     </button>
     <div class="collapse navbar-collapse" id="navbarText">
         <ul class="navbar-nav mr-auto">
-            <li class="nav-item">
-                <a class="nav-link" href="men.html">Men</a>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Men
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="men.html">Tops</a>
+                    <a class="dropdown-item" href="men.html">Bottoms</a>
+                    <a class="dropdown-item" href="men.html">OuterWear</a>
+                </div>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="women.html">Women</a>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Women
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="women.html">Tops</a>
+                    <a class="dropdown-item" href="women.html">Bottoms</a>
+                    <a class="dropdown-item" href="women.html">OuterWear</a>
+                </div>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="contact_us.html">Contact Us</a>

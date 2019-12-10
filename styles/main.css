@@ -2,6 +2,10 @@
 DEVELOPER: Roy Demirjian, IS117-005, Fall 2019
 */
 
+body {
+    background-color: #e5dfdf; !important;
+}
+
 /*
 List Styling
 */
@@ -24,7 +28,7 @@ img {
 
 
 /*
-Nav Bar colors
+Nav Bar, Search Bar
 */
 .site-header {
     background-color: rgba(0, 0, 0, .85);
@@ -37,7 +41,6 @@ Nav Bar colors
     color: #fff;
     text-decoration: none;
 }
-
 
 /*
 Container for footer
